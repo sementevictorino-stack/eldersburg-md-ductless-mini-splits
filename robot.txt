@@ -1,0 +1,42 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://eldersburgmdductlessminisplits.netlify.app/sitemap.xml
+
+# Main pages
+Allow: /index.html
+Allow: /services/
+Allow: /locations/
+
+# Disallow admin or private areas
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow search engines to crawl all service pages
+Allow: /services/ductless-mini-split-installation.html
+Allow: /services/ductless-mini-split-repair.html
+Allow: /services/hvac-installation.html
+Allow: /services/air-conditioning-repair.html
+Allow: /services/heating-repair.html
+Allow: /services/hvac-maintenance.html
+Allow: /services/indoor-air-quality.html
+Allow: /services/commercial-hvac.html
+Allow: /services/energy-efficiency.html
+Allow: /services/emergency-hvac.html
+
+# Allow search engines to crawl all location pages
+Allow: /locations/champaign-il.html
+Allow: /locations/urbana-il.html
+Allow: /locations/savoy-il.html
+Allow: /locations/rantoul-il.html
+Allow: /locations/gibson-city-il.html
+Allow: /locations/monticello-il.html
+Allow: /locations/mansfield-il.html
+Allow: /locations/fisher-il.html
+Allow: /locations/paxton-il.html
+Allow: /locations/tuscola-il.html
+
+# Crawl delay
+Crawl-delay: 1
